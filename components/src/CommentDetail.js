@@ -1,6 +1,6 @@
 import React from 'react';
 
-// get parent properties with 'props'; deconstruct with {} w/ prop objNames
+// get parent properties with 'props'; destructure with {} w/ prop objNames
 const CommentDetail = ({ avatarImg, name, date, comment} ) => {
     return (
         <div className="comment">
